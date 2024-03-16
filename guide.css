@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image:url('contac7.jpg') ;
+}
+
+  img{
+      width: 440px;
+      height: 300px;
+      float: center;
+  }
+.country-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.country {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px);
+    max-width: 250px; 
+    margin-top: 100px;
+}
+
+h2 {
+    color: #333;
+}
+p {
+    color: #000000;
+}
+.flag {
+    display: block;
+    width: 150px; 
+    height: auto;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.nom{
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+   top: 0; 
+  }
+  .nom a:hover{
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   text-decoration: none;
+  }
+  .nom a{
+   color: #fff;
+   text-decoration: none;
+  }
+  #entetedespages{
+    background:#5a5959;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  
+  
+  
+  #menu {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+    width: 110px;
+   margin-left: 90%;
+   margin-top: 1.5%;
+  position: fixed;
+  }
+  #menu ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+  }
+  #menu li {
+     background-color: #999; 
+     background-image:-webkit-linear-gradient(top, black 0%, #333A40 100%);
+     background-image: linear-gradient(to bottom,black 0%, #333A40 100%);
+    
+     margin-bottom:2px;
+    
+     border:solid 1px #333A40
+  }
+  #menu li li {
+     max-height:0;
+     overflow: hidden;
+     transition: all .5s;
+     border-radius:0;
+     background: #444;
+     box-shadow: none;
+     border:none;
+     margin:0
+  }
+  #menu  a {
+    display:block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 0;
+    font-family: verdana;
+    font-size:1.2em
+  }
+  .moinsmenu{
+    height: 30px;
+    width: 30px;
+   background-color: white;
+  }
+  
+  #menu ul li a, #menu li:hover li a {
+    font-size:1em
+  }
+  #menu li:hover {
+     background:rgb(159, 108, 13);
+  }
+  #menu li li:hover {
+     background: #999;
+  }
+  #menu ul li:last-child {
+     border-radius: 0 0 6px 6px;
+     border:none;
+  }
+  #menu li:hover li {
+    max-height: 15em;
+  }
+  
+  
+  img{
+      width: 440px;
+      height: 300px;
+      float: center;
+  }
+  
+
+
+
+
+

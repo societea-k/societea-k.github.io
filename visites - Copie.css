@@ -1,0 +1,124 @@
+
+#entetedespages{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  #menu {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+    width: 110px;
+   margin-left: 90%;
+   margin-top: 1.5%;
+  position: fixed;
+  }
+  #menu ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+  }
+  #menu li {
+     background-color: #999; 
+     background-image:-webkit-linear-gradient(top, black 0%, #333A40 100%);
+     background-image: linear-gradient(to bottom,black 0%, #333A40 100%);
+    
+     margin-bottom:2px;
+    
+     border:solid 1px #333A40
+  }
+  #menu li li {
+     max-height:0;
+     overflow: hidden;
+     transition: all .5s;
+     border-radius:0;
+     background: #857878;
+     box-shadow: none;
+     border:none;
+     margin:0
+  }
+  #menu  a {
+    display:block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 0;
+    font-family: verdana;
+    font-size:1.2em
+  }
+  .moinsmenu{
+    height: 30px;
+    width: 30px;
+   background-color: white;
+  }
+  
+  #menu ul li a, #menu li:hover li a {
+    font-size:1em
+  }
+  #menu li:hover {
+     background:rgb(159, 108, 13);
+  }
+  #menu li li:hover {
+     background: #999;
+  }
+  #menu ul li:last-child {
+     border-radius: 0 0 6px 6px;
+     border:none;
+  }
+  #menu li:hover li {
+    max-height: 15em;
+  }
+  
+  img{
+      width: 440px;
+      height: 300px;
+      float: center;
+  }
+
+#fond{
+    background-image:url(../images/imagefond.jpg) ;
+    font-size:25PX ;
+    border-radius: 300PX;
+
+}
+#haut{
+    text-align: center;
+    background-color: rgb(247, 186, 107);
+    color: #1f1c17;
+    font-size:70PX ;
+}
+#dubai{
+    float: left;
+    margin: 5%;
+    margin-bottom: -500px ;
+    margin-left:100PX ;
+    border-radius: 300PX;
+
+}
+#york{
+  float: right;
+    margin-right: 20%;
+    margin-top: 30px;
+    margin-left:700PX ;
+}
+#desert{
+    float: right;
+    margin: 4%;
+    margin-top:100px ;
+    margin-left: 80px;
+}
+#mecque{
+    margin-left: 90px;
+   margin-top: 100px;
+   float: left;
+}
+#madrid{
+  float: right;
+    margin-left: 0px;
+   margin-top:0px ;
+     
+
+}

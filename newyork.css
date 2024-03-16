@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Parisienne&family=Poppins:wght@200;400&display=swap');
+
+
+.nom{
+  color: white;
+  margin-top: 1%;
+  margin-left: -70%;
+  font-size: 25px;
+ top: 0; 
+}
+.nom a:hover{
+ color: #fff;
+ border: none;
+ cursor: pointer;
+ text-decoration: none;
+}
+.nom a{
+ color: #fff;
+ text-decoration: none;
+}
+#entetedespages{
+  background-color: rgb(250, 145, 145);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+#menu {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 110px;
+ margin-left: 90%;
+ margin-top: 1.5%;
+position: fixed;
+}
+#menu ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+#menu li {
+   background-color: #999; 
+   background-image:-webkit-linear-gradient(top, black 0%, #333A40 100%);
+   background-image: linear-gradient(to bottom,black 0%, #333A40 100%);
+  
+   margin-bottom:2px;
+  
+   border:solid 1px #333A40
+}
+#menu li li {
+   max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius:0;
+   background: #444;
+   box-shadow: none;
+   border:none;
+   margin:0
+}
+#menu  a {
+  display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1.2em
+}
+.moinsimagemenu{
+  height: 30px;
+  width: 30px;
+ background-color: white;
+}
+
+#menu ul li a, #menu li:hover li a {
+  font-size:1em
+}
+#menud li:hover {
+   background:rgb(159, 108, 13);
+}
+#menu li li:hover {
+   background: #999;
+}
+#menu ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+#menu li:hover li {
+  max-height: 15em;
+}
+
+
+img{
+    width: 440px;
+    height: 300px;
+    float: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+   }
+   body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+   }
+   
+  
+   
+   .meme {
+    width: 100%;
+    height: 18cm;
+    position: fixed;
+    top: 100px;
+    background-image: url(york8.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+   }
+   .meme h2 {
+    font-family: 'Parisienne',cursive;
+  font-size: 10ch;
+  text-align: center;
+  color: white;
+  padding-top: 215px;
+   }
+  
+   .contenu {
+    width: 100%;
+    position: relative;
+    top: 1000px;
+    height: -6000px;
+    background-color:rgb(250, 145, 145) ;
+
+   }
+   .texte1,.photos{
+padding-top: 50px;
+   }   
+  
+    .imggauche{
+    padding-top: 100px;
+  }
+  
+  .textedroite{
+    display: block;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .textegauche{
+    display: block;
+  width: 800px;
+  }
+  .mipage{
+      display: flex;
+    }
+  .soustitres1{
+    text-align: center;
+    font-family: 'bitter',serif;
+    padding-top: 30px;
+    font-size: x-large;
+  }
+  .soustitres2{
+    font-family: 'Bitter', serif;
+    font-size: large;
+    color: rgb(159, 108, 13);
+    padding-left:10px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-align: normal;
+  }
+  .mipage1{
+    background: url(https://maroc-bivouac.com/wp-content/uploads/2020/01/SLIDE-1.jpg);
+    height: 18cm;
+    display: flex;
+    background-size: cover;
+  }
+  .mipage{
+    display: flex;
+    padding-top: 40px;
+  }
+  .p1{
+    height: 500px;
+    width: 300px;
+  }  
+  .tof{
+   width: 6cm;
+   height: 7cm;
+   padding-top: 2cm;
+  }
+  .tof2{
+    width: 6cm;
+    height: 6cm;
+  }
+  .colonne{
+    grid-template-columns: repeat();
+  padding-top: 40px;
+  margin: auto;
+  padding-bottom: 40px;
+  margin-top: 10px;
+ }
+
+ 
+  .p2{
+  height: 500px;
+  width: 300px;
+  }
+  .images{
+    margin: auto;
+  }
+  .image{
+    width: 800px;
+      height: 450px;
+   padding-left:800px;}
+  p{
+    padding-left: 1cm;
+    padding-right: 1cm;
+    font-family: 'Poppins', sans-serif;
+  }
+  .tofrondes {
+    width:250px;
+    clip-path: circle();
+     }
+     #quoi{
+      border-radius: 350px;
+     }
+
+      

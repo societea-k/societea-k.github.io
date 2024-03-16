@@ -1,0 +1,22 @@
+.marone{
+    background-repeat: no-repeat;
+    background-size: over;
+    height: 300px;
+    
+    font-size: 20px;
+    color: rgb(247, 241, 238);
+    
+}
+h1{
+    text-align: center;
+}
+.cool{
+    border-radius: 500px;
+    margin-left: 170px;
+    margin-top: 400px;
+}
+body{
+    height: 300px;
+    background-image: url(soleil2.avif);
+    
+}
